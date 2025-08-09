@@ -456,6 +456,13 @@ footer {
   .botao-form {
     padding: 0.8rem;
   }
+
+  .sobre-titulo,
+  .projetos-titulo,
+  .contatos-titulo {
+    text-align: center;
+
+  }
  
  
 
