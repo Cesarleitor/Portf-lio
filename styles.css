@@ -440,13 +440,6 @@ footer {
     width: 200px;
   }
 
-  
-
-  .sobre-caixa {
-    padding: 40px 20px;
-    width: 100%;
-  }
-
   .projetos-caixa {
     grid-template-columns: 1fr;
   }
