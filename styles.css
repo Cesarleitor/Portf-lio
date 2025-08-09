@@ -459,9 +459,9 @@ footer {
 
   .sobre-titulo,
   .projetos-titulo,
-  .contatos-titulo {
-    text-align: center;
-
+  .contatos-titulo{
+    text-align: justify;
+    
   }
  
  
