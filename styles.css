@@ -130,7 +130,7 @@ h1 {
   text-align: center;
 }
 
-.sobre-caixa,
+
 .projetos-caixa,
 .projetos-card {
   background: transparent !important;
@@ -368,8 +368,8 @@ body::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 30%, rgba(0,255,255,0.2), transparent 50%),
-              radial-gradient(circle at 70% 70%, rgba(255,0,150,0.2), transparent 50%);
+  background: radial-gradient(circle at 30% 30%, rgba(23, 87, 87, 0.2), transparent 50%),
+              radial-gradient(circle at 70% 70%, rgba(10, 61, 27, 0.2), transparent 50%);
   animation: glowMove 10s ease-in-out infinite alternate;
 }
 @keyframes glowMove {
@@ -440,6 +440,13 @@ footer {
     width: 200px;
   }
 
+   .sobre-paragrafo {
+    max-width: 90vw; /* Quase toda a largura da tela */
+    font-size: 0.95rem;
+    padding: 0 15px;
+  }
+
+
   .projetos-caixa {
     grid-template-columns: 1fr;
   }
@@ -462,12 +469,7 @@ footer {
   .botao-form {
     padding: 0.8rem;
   }
-  .sobre-paragrafo {
-    max-width: 90vw; /* Quase toda a largura da tela */
-    font-size: 0.95rem;
-    padding: 0 15px;
-  }
-
+ 
  
 
   
