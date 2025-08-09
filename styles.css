@@ -121,7 +121,9 @@ h1 {
   padding: 6rem 3rem;
 }
 
-.sobre-titulo {
+.sobre-titulo,
+.projetos-titulo,
+.contatos-titulo {
   font-size: 2.5rem;
   color: var(--claro);
   font-weight: bold;
@@ -167,14 +169,7 @@ h1 {
 
 
 
-.projetos-titulo {
-  font-size: 2.5rem;
-  color: var(--claro);
-  font-weight: bold;
-  margin: 100px;
-  border-radius: 0.5rem;
-  text-align: center;
-}
+
 
 .projetos-card:hover {
   box-shadow: 0 10px 20px rgba(241, 241, 243, 0.3);
@@ -252,14 +247,6 @@ h1 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-.contatos-titulo {
-  font-size: 2.5rem;
-  color: var(--claro);
-  font-weight: bold;
-  margin: 20px;
-  border-radius: 0.5rem;
-  text-align: center;
-}
 
 .campo-form {
   width: 100%;
