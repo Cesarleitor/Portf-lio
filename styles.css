@@ -147,10 +147,7 @@ h1 {
 .projetos-card {
   padding: 1rem 0;
 }
-.sobre-caixa:hover {
-  box-shadow: 0 10px 20px rgba(241, 241, 243, 0.3);
-  transform: translateY(-10px) scale(1.03);
-}
+
 
 .sobre-paragrafo {
   text-align: justify;
@@ -471,6 +468,11 @@ footer {
 
   .botao-form {
     padding: 0.8rem;
+  }
+  .sobre-paragrafo {
+    max-width: 90vw; /* Quase toda a largura da tela */
+    font-size: 0.95rem;
+    padding: 0 15px;
   }
 
  
