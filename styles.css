@@ -1,0 +1,204 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --primaria: #24242e;
+  /* Cor primária */
+  --secundaria: #05010c;
+  /* Cor secundária */
+  --escuro: #0f172a;
+  /* Cor escura */
+  --maisEscuro: #030405e5;
+  /* Cor mais escura */
+  --claro: #e2e8f0;
+  /* Cor clara */
+  --vidro: rgba(255, 255, 255, 0.1);
+  /* Efeito vidro */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(90deg, var(--escuro), var(--maisEscuro));
+  color: #333;
+}
+
+header {
+  background: var(--vidro);
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #1e90ff;
+}
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+/* Home / Apresentação */
+#home {
+  text-align: center;
+  padding-top: 3rem;
+  background: linear-gradient(90deg, #1e90ff 0%, #00bfff 100%);
+  color: white;
+  border-radius: 8px;
+}
+
+#home img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #fff;
+  object-fit: cover;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill {
+  background: #1e90ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Serviços */
+.services-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Depoimentos */
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonial {
+  border-left: 4px solid #1e90ff;
+  padding-left: 1rem;
+  font-style: italic;
+  background: #f0f8ff;
+  border-radius: 6px;
+}
+
+.testimonial strong {
+  font-style: normal;
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+/* Projetos */
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project {
+  background: #e0f0ff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+/* Contato */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form input, form textarea {
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+form button {
+  background: #1e90ff;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #007acc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Responsive */
+@media(max-width: 600px) {
+  .skills-list {
+    justify-content: center;
+  }
+  .testimonials {
+    flex-direction: column;
+  }
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+}

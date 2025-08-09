@@ -2,49 +2,141 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meu Portfólio</title>
-  <link rel="stylesheet" href="style.css" >
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio - Cesar Dev</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Augusto Cesar</h1>
+    <h1>Cesar Dev</h1>
     <nav>
-      <a href="#projetos">Projetos</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
+      <a href="#home">Início</a>
+      <a href="#about">Sobre Mim</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#services">Serviços</a>
+      <a href="#projects">Projetos</a>
+      <a href="#testimonials">Depoimentos</a>
+      <a href="#contact">Contato</a>
+      <a href="#cv">Currículo</a>
     </nav>
   </header>
 
-  <section class="intro">
-    <h2>Olá! Eu sou Desenvolvedor Full Stack</h2>
-    <p>Construindo soluções com Java e muito mais.</p>
+  <section id="home">
+    <img src="/img/perfil.jpg" alt="Foto de Cesar Dev" />
+    <h2>Olá! Eu sou Cesar Dev</h2>
+    <p>Desenvolvedor Web Full Stack | Websites, E-commerce, Sistemas Personalizados</p>
   </section>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <div class="projeto">
-      <h3>Meu Primeiro Portfólio</h3>
-      <p>Criado com HTML e CSS.</p>
-      <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
-    </div>
-    <!-- Copie o bloco acima para outros projetos -->
-  </section>
-
-  <section id="sobre">
+  <section id="about">
     <h2>Sobre Mim</h2>
-    <p>Estudante de desenvolvimento, apaixonado por aprender, codar e evoluir todos os dias.</p>
+    <p>Sou um desenvolvedor web apaixonado por transformar ideias em soluções digitais eficientes e modernas. Tenho experiência em JavaScript, React, Next.js, Node.js e outras tecnologias. Meu foco é entregar projetos de alta qualidade, responsivos e com boa usabilidade.</p>
   </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Email: seuemail@email.com</p>
-    <p>LinkedIn: linkedin.com/in/seuusuario</p>
-    <p>GitHub: github.com/seuusuario</p>
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills-list">
+      <span class="skill">JavaScript</span>
+      <span class="skill">React</span>
+      <span class="skill">Next.js</span>
+      <span class="skill">Node.js</span>
+      <span class="skill">HTML5</span>
+      <span class="skill">CSS3</span>
+      <span class="skill">Tailwind CSS</span>
+      <span class="skill">Git</span>
+      <span class="skill">MySQL</span>
+    </div>
   </section>
+
+  <section id="services">
+    <h2>Serviços</h2>
+    <ul class="services-list">
+      <li>Desenvolvimento de websites modernos e responsivos</li>
+      <li>Criação de lojas virtuais (e-commerce) personalizadas</li>
+      <li>Desenvolvimento de sistemas sob medida</li>
+      <li>Consultoria e manutenção de projetos web</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projetos</h2>
+    <div class="projects-list">
+      <div class="project">
+        <img src="https://via.placeholder.com/300x180" alt="Projeto 1" />
+        <h3>Projeto 1 - Site Institucional</h3>
+        <p>Desenvolvi um site responsivo para empresa do ramo X, usando React e Tailwind CSS.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x180" alt="Projeto 2" />
+        <h3>Projeto 2 - E-commerce</h3>
+        <p>Loja virtual personalizada com sistema de pagamento e controle de estoque.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x180" alt="Projeto 3" />
+        <h3>Projeto 3 - Sistema de Gerenciamento</h3>
+        <p>Sistema web para gerenciamento interno, com dashboard e relatórios.</p>
+      </div>
+    </div>
+  </section>
+
+ <section id="testimonials">
+    <h2>Depoimentos</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <strong>João Silva</strong>
+        <p>O Cesar foi muito profissional e entregou o projeto antes do prazo. Recomendo!</p>
+      </div>
+      <div class="testimonial">
+        <strong>Maria Oliveira</strong>
+        <p>Excelente trabalho, comunicação clara e resultado final impecável.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form action="mailto:cesar38dev@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="cv">
+    <h2>Currículo</h2>
+    <p>Baixe meu currículo atualizado clicando no link abaixo:</p>
+    <a href="curriculo.pdf" download>Download do Currículo (PDF)</a>
+  </section>
+
+   <footer class="rodape">
+      <p class="redes-sociais">Me siga nas redes sociais</p>
+      <div class="redes-sociais">
+        <a href="https://www.youtube.com/@fdrfilhodorei" target="_blank">
+          <img src="./img/youtube.png" alt="YouTube" />
+        </a>
+        <a
+          href="https://www.facebook.com/share/1BxDsUcfwE/?mibextid=wwXIfr"
+          target="_blank"
+        >
+          <img src="./img/facebook.png" alt="facebook" />
+        </a>
+        <a
+          href="https://www.instagram.com/fdr061?utm_source=ig_web_button_share_sheet&igsh=d3R4bWVmN2J3aWNn"
+          target="_blank"
+        >
+          <img src="./img/instagram.png" alt="Instagram" />
+        </a>
+        <a
+          href="https://open.spotify.com/intl-pt/artist/4AYrunrMn7LE3PMmdRkE6c?si=ggIwBi68TcisRu06GO4tdg&nd=1&dlsi=f387ea47ddcd43c2"
+          target="_blank"
+        >
+          <img src="./img/spotify.png" alt="Spotify" />
+        </a>
+      </div>
+    </footer>
 
   <footer>
-    <p>&copy; 2025 Seu Nome</p>
+    <p>© 2025 Cesar Dev - Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
