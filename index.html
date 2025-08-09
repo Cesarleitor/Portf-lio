@@ -1,142 +1,264 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfólio - Cesar Dev</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>Cesar Dev</h1>
-    <nav>
-      <a href="#home">Início</a>
-      <a href="#about">Sobre Mim</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#services">Serviços</a>
-      <a href="#projects">Projetos</a>
-      <a href="#testimonials">Depoimentos</a>
-      <a href="#contact">Contato</a>
-      <a href="#cv">Currículo</a>
+<html lang="en">
+  <head>
+    <meta charset="pt-br" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Meu Portfólio</title>
+  </head>
+
+  <body>
+    <!-- Partículas neon -->
+    <div
+      class="particle"
+      style="width: 6px; height: 6px; left: 10%; animation-delay: 0s"
+    ></div>
+    <div
+      class="particle"
+      style="width: 8px; height: 8px; left: 30%; animation-delay: 2s"
+    ></div>
+    <div
+      class="particle"
+      style="width: 4px; height: 4px; left: 50%; animation-delay: 4s"
+    ></div>
+    <div
+      class="particle"
+      style="width: 7px; height: 7px; left: 70%; animation-delay: 1s"
+    ></div>
+    <div
+      class="particle"
+      style="width: 5px; height: 5px; left: 90%; animation-delay: 3s"
+    ></div>
+
+    <div class="particulas"></div>
+    <nav class="navegacao">
+      <ul class="menu">
+        <li>
+          <a href="#inicio" class="menu-link">Início</a>
+        </li>
+        <li>
+          <a href="#sobre" class="menu-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#projetos" class="menu-link">Eventos</a>
+        </li>
+        <li>
+          <a href="#contatos" class="menu-link">Contato</a>
+        </li>
+      </ul>
     </nav>
-  </header>
 
-  <section id="home">
-    <img src="/img/perfil.jpg" alt="Foto de Cesar Dev" />
-    <h2>Olá! Eu sou Cesar Dev</h2>
-    <p>Desenvolvedor Web Full Stack | Websites, E-commerce, Sistemas Personalizados</p>
-  </section>
+    <main id="inicio" class="cabecalho">
+      <img src="./img/perfil1.jpg" alt="Foto de perfil" class="foto-perfil" />
+      <h1 class="nome-principal">Cesar Augusto</h1>
+      <p class="cabecalho-sub-titulo">Desenvolvedor Web</p>
+    </main>
 
-  <section id="about">
-    <h2>Sobre Mim</h2>
-    <p>Sou um desenvolvedor web apaixonado por transformar ideias em soluções digitais eficientes e modernas. Tenho experiência em JavaScript, React, Next.js, Node.js e outras tecnologias. Meu foco é entregar projetos de alta qualidade, responsivos e com boa usabilidade.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Habilidades</h2>
-    <div class="skills-list">
-      <span class="skill">JavaScript</span>
-      <span class="skill">React</span>
-      <span class="skill">Next.js</span>
-      <span class="skill">Node.js</span>
-      <span class="skill">HTML5</span>
-      <span class="skill">CSS3</span>
-      <span class="skill">Tailwind CSS</span>
-      <span class="skill">Git</span>
-      <span class="skill">MySQL</span>
-    </div>
-  </section>
-
-  <section id="services">
-    <h2>Serviços</h2>
-    <ul class="services-list">
-      <li>Desenvolvimento de websites modernos e responsivos</li>
-      <li>Criação de lojas virtuais (e-commerce) personalizadas</li>
-      <li>Desenvolvimento de sistemas sob medida</li>
-      <li>Consultoria e manutenção de projetos web</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projetos</h2>
-    <div class="projects-list">
-      <div class="project">
-        <img src="https://via.placeholder.com/300x180" alt="Projeto 1" />
-        <h3>Projeto 1 - Site Institucional</h3>
-        <p>Desenvolvi um site responsivo para empresa do ramo X, usando React e Tailwind CSS.</p>
+    <section id="sobre" class="sobre">
+      <h2 class="sobre-titulo">SOBRE MIM</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por
+          tecnologia e desenvolvimento de software. Atualmente, estou focado em
+          expandir meus conhecimentos nas principais linguagens e ferramentas
+          utilizadas no mercado, buscando sempre estar atualizado com as
+          tendências e boas práticas da área. Meu estudo atual engloba diversas
+          tecnologias essenciais para a construção de sistemas robustos e
+          escaláveis. Entre elas, destaco a linguagem Java, que tem sido
+          fundamental para o desenvolvimento back-end, e a Linguagem C, que me
+          ajuda a compreender conceitos fundamentais de programação e lógica
+          computacional. Estou também aprofundando meus conhecimentos em Spring
+          Boot, framework que facilita a criação de aplicações web e APIs,
+          promovendo desenvolvimento rápido e seguro. Além do desenvolvimento,
+          dedico atenção especial ao versionamento de código e ao trabalho
+          colaborativo por meio do Git e GitHub, ferramentas indispensáveis para
+          o controle de versões, organização dos projetos e integração em
+          equipes de desenvolvimento. No campo dos bancos de dados, estudo tanto
+          soluções relacionais quanto não relacionais. Tenho experiência com
+          MySQL e PostgreSQL, bancos relacionais amplamente utilizados em
+          aplicações empresariais, onde aplico conceitos de modelagem de dados,
+          consultas SQL avançadas e otimização de performance. Paralelamente,
+          estou explorando bancos NoSQL, que oferecem flexibilidade e
+          escalabilidade para projetos com grandes volumes de dados ou
+          estruturas não convencionais. Recentemente, também comecei a trabalhar
+          com o Drezzle, uma ferramenta que tem me permitido criar aplicações
+          mais modernas e dinâmicas, integrando diversas tecnologias de forma
+          prática. Este portfólio foi criado como uma vitrine da minha evolução
+          técnica e dos projetos que desenvolvo ao longo dessa jornada de
+          aprendizado. Aqui, compartilho minhas experiências, desafios superados
+          e a aplicação prática dos conhecimentos adquiridos. Meu objetivo é não
+          apenas demonstrar o que já conquistei, mas também mostrar meu
+          compromisso contínuo com o crescimento profissional e minha vontade de
+          contribuir com soluções inovadoras no mercado de tecnologia. Estou
+          aberto a novos desafios, estágios e oportunidades que me permitam
+          aplicar e ampliar minhas habilidades, consolidando minha carreira como
+          desenvolvedor de software.
+        </p>
       </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/300x180" alt="Projeto 2" />
-        <h3>Projeto 2 - E-commerce</h3>
-        <p>Loja virtual personalizada com sistema de pagamento e controle de estoque.</p>
-      </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/300x180" alt="Projeto 3" />
-        <h3>Projeto 3 - Sistema de Gerenciamento</h3>
-        <p>Sistema web para gerenciamento interno, com dashboard e relatórios.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
- <section id="testimonials">
-    <h2>Depoimentos</h2>
-    <div class="testimonials">
-      <div class="testimonial">
-        <strong>João Silva</strong>
-        <p>O Cesar foi muito profissional e entregou o projeto antes do prazo. Recomendo!</p>
+    <section id="projetos" class="projetos">
+      <h2 class="projetos-titulo">PROJETOS</h2>
+      <div class="projetos-caixa">
+        
+        <div class="projetos-card">
+          <img
+            src="./img/projeto1.jpg"
+            alt="projeto1"
+            class="projetos-imagem"
+          />
+         
+          <div class="caixa-textos-projetos">
+            <h3 class="info-projetos">PORTFÓLIO</h3>
+            <h4 class="data"></h4>
+            <p class="paragrafos-projetos">
+              Portfólio Profissional – FDR - Filho do Rei. Desenvolvi um
+              portfólio personalizado, com foco em destacar seu trabalho
+              cultutal, na área da música gospel. O projeto contou com um design
+              moderno e responsivo, garantindo ótima visualização em
+              dispositivos móveis e desktops. Implementei seções estratégicas
+              como Sobre Mim, player com lançamento, videografia, e eventos. Uma
+              área de Contat redirecionando diretamente ao WattsApp, além de
+              otimizar a performance e a navegação para oferecer uma experiência
+              fluida ao visitante. O resultado foi um site visualmente atrativo,
+              funcional e alinhado à identidade visual do cliente, ajudando a
+              fortalecer sua presença online e atrair novas oportunidades.
+            </p>
+          </div>
+        </div>
+        
+
+        <div class="projetos-card">
+          <img
+            src="./img/projeto2.jpg"
+            alt="projeto1"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projetos">
+            <h3 class="info-projetos">LANÇAMENTO DO CD</h3>
+            <h4 class="info-projetos">SÓ ELE TEM PODER</h4>
+            <h5 class="data">04 e 05 de outubro 2024</h5>
+
+            <p class="paragrafos-projetos">
+              Nos dias 04 e 05 de outubro de 2024, tive a honra de participar de
+              dois eventos marcantes para o cenário do rap no sul do Brasil, nas
+              cidades de Caxias do Sul e Bento Gonçalves (RS) "Rap Conect e
+              Cristo Para as Ruas". Foi uma grande experiência de conexão,
+              música e propósito. Durante esses encontros que reuniram talentos,
+              quebradas, arte e fé, realizei também o lançamento oficial do meu
+              CD "Só Ele Tem Poder". Esse trabalho representa uma nova fase na
+              minha caminhada musical — um projeto que reúne 12 faixas com
+              letras que falam sobre transformação, esperança e a presença de
+              Deus mesmo nos dias mais difíceis. A energia do público, o apoio
+              da cena local e o sentimento de missão cumprida fizeram desses
+              dias momentos inesquecíveis. Cada rima foi uma semente lançada,
+              cada batida um chamado para refletir e se fortalecer. Levar minha
+              arte para as ruas dessas duas cidades foi mais que uma
+              apresentação: foi um testemunho. Agradeço a todos que colaram,
+              apoiaram, cantaram junto e fizeram parte dessa história. "Só Ele
+              Tem Poder" está nas ruas e nas plataformas — ouça, compartilhe e
+              sinta a verdade por trás de cada verso.
+            </p>
+          </div>
+        </div>
+
+        <div class="projetos-card">
+          <img
+            src="./img/projeto3.jpg"
+            alt="projeto1"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projetos">
+            <h3 class="info-projetos">Portfólio</h3>
+            <h4 class="data">O JOGO VIROU</h4>
+            <h5 class="info-projetos">07/08/2025</h5>
+            <p class="paragrafos-projetos">
+              É com muita alegria e gratidão que anuncio o lançamento oficial do
+              meu novo single, “O Jogo Virou”, disponível a partir do dia 07 de
+              agosto de 2025. Esse projeto é fruto de uma jornada de superação,
+              fé e transformação. Cada faixa carrega uma parte da minha
+              história, das lutas enfrentadas, das vitórias conquistadas e da
+              missão que carrego de usar a música como instrumento de mudança.
+              “O Jogo Virou” é mais do que um título — é uma declaração de vida.
+              Um grito de quem saiu do fundo e hoje caminha com propósito. São
+              letras que falam de dor, mas também de esperança. De queda, mas
+              também de recomeço. De rua, mas também de redenção. O álbum traz
+              batidas marcantes, rimas conscientes e participações que
+              fortalecem ainda mais essa caminhada. Tudo pensado para alcançar
+              corações, inspirar mentes e glorificar Aquele que realmente vira o
+              jogo: Cristo. Disponível em todas as plataformas digitais e nos
+              eventos ao vivo. Ouça, compartilhe e sinta essa verdade: o jogo
+              virou, e a vitória vem do alto.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="testimonial">
-        <strong>Maria Oliveira</strong>
-        <p>Excelente trabalho, comunicação clara e resultado final impecável.</p>
-      </div>
-    </div>
-  </section>
+    </section>
+    <section id="contatos" class="contatos">
+      <h2 class="contatos-titulo">Entre em Contato</h2>
 
-  <section id="contact">
-    <h2>Contato</h2>
-    <form action="mailto:cesar38dev@gmail.com" method="post" enctype="text/plain">
-      <input type="text" name="nome" placeholder="Seu nome" required />
-      <input type="email" name="email" placeholder="Seu e-mail" required />
-      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+      <form
+        class="formulario-contato"
+        id="formulario"
+        onsubmit="enviarWatsApp(event)"
+      >
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" id="nome" />
+        </div>
 
-  <section id="cv">
-    <h2>Currículo</h2>
-    <p>Baixe meu currículo atualizado clicando no link abaixo:</p>
-    <a href="curriculo.pdf" download>Download do Currículo (PDF)</a>
-  </section>
+        <div class="grupo-form">
+          <textarea
+            class="campo-form"
+            placeholder="Digite sua mensagem"
+            id="mensagem"
+          ></textarea>
+        </div>
 
-   <footer class="rodape">
+        <button type="submit" class="botao-form">Enviar WattsApp</button>
+      </form>
+    </section>
+
+    <script>
+      function enviarWatsApp(event) {
+        event.preventDefault(); // Impede o envio do formulário padrão
+
+        const nome = document.getElementById("nome");
+        const mensagem = document.getElementById("mensagem");
+        const telefone = "5554984260491";
+
+        const texto = `Olá, meu nome é ${nome.value}, ${mensagem.value}`;
+        const msgFormatada = encodeURIComponent(texto);
+        const url = `https://api.whatsapp.com/send?phone=${telefone}&text=${msgFormatada}`;
+        window.open(url, "_blank");
+
+        nome.value = "";
+        mensagem.value = "";
+      }
+    </script>
+
+    <footer class="rodape">
       <p class="redes-sociais">Me siga nas redes sociais</p>
       <div class="redes-sociais">
-        <a href="https://www.youtube.com/@fdrfilhodorei" target="_blank">
-          <img src="./img/youtube.png" alt="YouTube" />
+        <a href="https://www.linkedin.com/in/dev-cesar198738/" target="_blank">
+          <img src="./img/linkedin.png" alt="linkdln" />
         </a>
         <a
-          href="https://www.facebook.com/share/1BxDsUcfwE/?mibextid=wwXIfr"
+          href="https://www.facebook.com/profile.php?id=100041463606963"
           target="_blank"
         >
           <img src="./img/facebook.png" alt="facebook" />
         </a>
-        <a
-          href="https://www.instagram.com/fdr061?utm_source=ig_web_button_share_sheet&igsh=d3R4bWVmN2J3aWNn"
-          target="_blank"
-        >
+        <a href="https://www.instagram.com/" target="_blank">
           <img src="./img/instagram.png" alt="Instagram" />
         </a>
-        <a
-          href="https://open.spotify.com/intl-pt/artist/4AYrunrMn7LE3PMmdRkE6c?si=ggIwBi68TcisRu06GO4tdg&nd=1&dlsi=f387ea47ddcd43c2"
-          target="_blank"
-        >
-          <img src="./img/spotify.png" alt="Spotify" />
+
+        <a href="https://github.com/Cesarleitor" target="_blank">
+          <img src="./img/github.png" alt="github" />
         </a>
       </div>
     </footer>
-
-  <footer>
-    <p>© 2025 Cesar Dev - Todos os direitos reservados.</p>
-  </footer>
-</body>
+    <footer>
+      <p>© 2025 Cesar Dev - Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
